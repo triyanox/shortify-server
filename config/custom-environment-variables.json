@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "shortify_jwt_private_key",
+  "DB_URI": "MONGO_URI"
+}

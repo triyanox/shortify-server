@@ -1,0 +1,42 @@
+{
+  "name": "shortify",
+  "version": "1.0.0",
+  "description": "URL shortener service (server)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triyanox/shortify.git"
+  },
+  "author": "Mohamed Achaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triyanox/shortify/issues"
+  },
+  "homepage": "https://github.com/triyanox/shortify#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.9",
+    "nanoid": "^3.3.2",
+    "valid-url": "^1.0.9"
+  }
+}
