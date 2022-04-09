@@ -12,7 +12,7 @@ const users = require("./routes/users");
 
 require("./prod")(app);
 
-const MONGO_URI = process.env["DB_URI"];
+const MONGO_URI = config.get("DB_URI");
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
